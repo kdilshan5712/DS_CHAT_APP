@@ -1,0 +1,18 @@
+{
+  "name": "distributed-chat-group10",
+  "version": "1.0.0",
+  "description": "Distributed Chat System",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "gateway": "node backend/gateway.js",
+    "watchdog": "node backend/watchdog/watchdog.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3",
+    "socket.io": "^4.7.2"
+  }
+}
